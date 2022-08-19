@@ -4,13 +4,13 @@ package main
 import "fmt"
 
 func main() {
-	// VARIABLES
+	// 1. VARIABLES
 
 	// Variable declaration with no initialization
 
 	var foo string
 
-	// declaration with iniitialisation
+	// declaration with initialisation
 
 	var foo_two string = "Go is awesome"
 
@@ -30,8 +30,13 @@ func main() {
 
 	// shorthand variable declaration with no var keyword and no type annotation
 	foo_six := "Shorthand"
-	fmt.Println(":= is shorthand for var declaration")
+	fmt.Printf(":= is for shorthand declaration, var foo_six is of type %T", foo_six)
 	// the following print statement is just to silince the compiler
 	// static typed lanaguages do not like a program to have unused variables
 	fmt.Println(foo, foo_two, foo_three, foo_four, foo_five, foo_six, bar, bar_one)
+
+	//2. Constants
+
+	// constants use the const keyword - they ar efixed values which can never be
+	// reassigned
 }
