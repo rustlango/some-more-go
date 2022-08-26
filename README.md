@@ -7,4 +7,4 @@ Learn Go course by KPS.
 
 My Portfolio of Evidence of golang course containing code and my learnings. 
 
-#golang #rustlango #go #gorpogramming
+#golang #rustlango #go #goprogramming
